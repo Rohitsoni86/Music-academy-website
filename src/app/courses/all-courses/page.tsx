@@ -1,7 +1,7 @@
 import React from "react";
 import courseData from "@/app/data/music_courses.json";
 import Image from "next/image";
-import { HoverEffect } from "@/app/components/ui/card-hover-effect";
+// import { HoverEffect } from "@/app/components/ui/card-hover-effect";
 import { SparklesCore } from "@/app/components/ui/sparkles";
 
 interface Course {
