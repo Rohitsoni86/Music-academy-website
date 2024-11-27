@@ -11,12 +11,12 @@ export default function ContactUsPage() {
 	};
 	return (
 		<div className="min-h-screen flex justify-center items-center z-100">
-			<div className="w-96 px-4 md:px-0">
+			<div className="w-96 px-4 md:px-0 mt-10">
 				<h2 className="text-2xl font-semibold text-white mb-6">
 					Say Something!
 				</h2>
 				<div className="w-full">
-					<form className="w-auto">
+					<div className="w-auto">
 						<div className="mb-4">
 							<label
 								htmlFor="name"
@@ -72,7 +72,7 @@ export default function ContactUsPage() {
 						>
 							Send Message
 						</button>
-					</form>
+					</div>
 				</div>
 			</div>
 			<BackgroundBeams />
