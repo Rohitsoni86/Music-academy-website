@@ -16,7 +16,7 @@ export default function ContactUsPage() {
 					Say Something!
 				</h2>
 				<div className="w-full">
-					<form className="w-auto" action="/" method="POST">
+					<form className="w-auto">
 						<div className="mb-4">
 							<label
 								htmlFor="name"
@@ -32,7 +32,6 @@ export default function ContactUsPage() {
 								required
 								className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500 bg-gray-700 text-white"
 							/>
-							…{" "}
 						</div>
 						<div className="mb-4">
 							<label
