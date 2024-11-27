@@ -1,7 +1,14 @@
+"use client";
 import React from "react";
 import { BackgroundBeams } from "../components/ui/background-beams";
+import { useRouter } from "next/navigation";
 
 export default function ContactUsPage() {
+	const router = useRouter();
+
+	const handleSubmit = (): void => {
+		router.push("/");
+	};
 	return (
 		<div className="min-h-screen flex justify-center items-center z-100">
 			<div className="w-96 px-4 md:px-0">
@@ -60,7 +67,8 @@ export default function ContactUsPage() {
 							></textarea>
 						</div>
 						<button
-							type="submit"
+							// type="submit"
+							onClick={handleSubmit}
 							className="bg-emerald-500 w-full text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue"
 						>
 							Send Message
